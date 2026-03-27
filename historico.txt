@@ -1,0 +1,140 @@
+    1  clear
+    2  cls
+    3  sudo yum check-update
+    4  pwd
+    5  mkdir Projects
+    6  ls -la
+    7  sudo apt install tree
+    8  sudo yum install tree
+    9  exit
+   10  ls -l
+   11  ls -la
+   12  history + aula03_27_03.txt
+   13  ls -l
+   14  cls
+   15  clear
+   16  git clone https://github.com/EnzoOkuizumiFiap/DevOps-Aulas.git
+   17  sudo dnf update -y
+   18  sudo dnf install git -y
+   19  git --version
+   20  git clone https://github.com/EnzoOkuizumiFiap/DevOps-Aulas.git
+   21  ls -la
+   22  rmdir Projects
+   23  ls -l
+   24  cd DevOps-Aulas/
+   25  git checkout aula03_27-03
+   26  git checkout -b aula03_27-03
+   27  mkdir Projects
+   28  ls -la
+   29  rmdir Projects/
+   30  ls -la
+   31  clear
+   32  mkdir payrol1 payrol2 payrollastyear stafflist accountyear1 accountyear2
+   33  cd payrol
+   34  ls -la
+   35  git reset --hard
+   36  ls -la
+   37  git reset --hard HEAD
+   38  ls -la
+   39  cd ..
+   40  cd DevOps-Aulas/
+   41  ls -la
+   42  rmdir accountyear
+   43  clear
+   44  ls -la
+   45  rmdir accountyear
+   46  rmdir accountyear1
+   47  rmdir accountyear2
+   48  ls -la
+   49  rmdir payrol1
+   50  rmdir payrol2
+   51  rmdir payrollastyear
+   52  rmdir stafflist/
+   53  clear
+   54  mkdir Business
+   55  cd Business/
+   56  mkdir payrol1
+   57  mkdir payrol2
+   58  mkdir payrollastyear
+   59  mkdir stafflist
+   60  mkdir accountsyear1
+   61  mkdir accountsyear2
+   62  clear
+   63  ls -la
+   64  clear
+   65  ls -la
+   66  clear
+   67  clearl
+   68  clear
+   69  clar
+   70  e
+   71  clear
+   72  ls -la
+   73  rmdir accountsyear1
+   74  rmdir accountsyear2
+   75  rmdir payrol1
+   76  rmdir payrol2
+   77  rmdir payrollastyear/
+   78  rmdir stafflist/
+   79  ls -la
+   80  cd ..
+   81  ls -la
+   82  cd business
+   83  cd Business/
+   84  clear
+   85  mdkir Payrol
+   86  mkdir Payrol
+   87  mkdir Accounts
+   88  mkdir Staff
+   89  clear
+   90  ls -la
+   91  mdkir payrol1
+   92  mkdir payrol1
+   93  ls -la
+   94  ls -l
+   95  rmdir payrol1
+   96  touch payrol1
+   97  touch payrol2
+   98  touch payrollastyear
+   99  touch stafflist
+  100  touch accountyear1
+  101  touch accountyear2
+  102  cd Payrol
+  103  mkdir Backup
+  104  ls -la
+  105  cd ..
+  106  mv payrol1 /Payrol
+  107  exit
+  108  cd Business
+  109  cd DevOps-Aulas/
+  110  cd Business/
+  111  ls -la
+  112  mv payrol1 Payrol
+  113  mv payrol2 Payrol/
+  114  mv payrollastyear Backup
+  115  mv stafflist Staff/
+  116  mv accountyear1 Accounts/
+  117  mv accountyear2 Accounts/
+  118  cd Backup 
+  119  ls -la
+  120  mkdir Backup
+  121  rmdir Backup
+  122  rm Backup 
+  123  mkdir Backup
+  124  ls -la
+  125  touch payrol1backup
+  126  mv payrol1backup Backup/
+  127  ls -la
+  128  ls -l
+  129  cd ..
+  130  ls -la
+  131  cd Business/
+  132  tree
+  133  cd Payrol
+  134  touch notes.txt
+  135  cp notes.txt ../Staff
+  136  cd ..
+  137  cd Staff
+  138  ls -la
+  139  cd ..
+  140  history > historico.txt
