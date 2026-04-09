@@ -1,0 +1,25 @@
+    1  clear
+    2  sudo apt update && sudo apt upgrade -y
+    3  clear
+    4  sudo apt update
+    5  sudo apt install git
+    6  clear
+    7  git clone https://github.com/EnzoOkuizumiFiap/DevOps-Aulas.git
+    8  ls -l
+    9  cd DevOps-Aulas/
+   10  git checkout aula04_31-03
+   11  clear
+   12  ls -la
+   13  clear
+   14  sudo yum install jdk-21
+   15  sudo apt install openjdk-21-jdk
+   16  cls
+   17  cd Java
+   18  cd java
+   19  clear
+   20  java HelloWorld
+   21  clear
+   22  exit
+   23  clear
+   24  cd DevOps-Aulas/
+   25  history > relatorio_comandos.txt
