@@ -1,0 +1,53 @@
+
+history
+    7  docker container run ubuntu
+    8  FROM ubuntu
+   10  docker run
+   11  docker container run
+   12  docker container run ubuntu
+   13  docker container run ubuntu:22.04
+   14  clear
+   15  docker containre run -t ubuntu
+   16  docker containre run t ubuntu
+   17  clear
+   18  docker container -t ubuntu
+   19  docker container t ubuntu
+   20  docker container run -t ubuntu
+   21  docker container run -t ubuntu
+   22  docker container run -t ubuntu
+   23  clear
+   24  docker container run -it ubuntu:22.04
+
+
+vv ELE RODA!!!!! vv
+docker container run -it ubuntu:22.04
+
+root@e6673d790806:/# cat /etc/os-release
+PRETTY_NAME="Ubuntu 22.04.5 LTS"
+NAME="Ubuntu"
+VERSION_ID="22.04"
+VERSION="22.04.5 LTS (Jammy Jellyfish)"
+VERSION_CODENAME=jammy
+ID=ubuntu
+ID_LIKE=debian
+HOME_URL="https://www.ubuntu.com/"
+SUPPORT_URL="https://help.ubuntu.com/"
+BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+UBUNTU_CODENAME=jammy
+
+
+
+
+
+
+
+COMO ACESSAR SUA MÁQUINA CRIADA:
+
+docker exec -it <nome_da_sua_máquina> bash
+
+EXEMPLO: docker exec -it zealous_ritchie bash
+
+
+Rodando minha máquina com Python:
+docker build -t ubuntu_python .
