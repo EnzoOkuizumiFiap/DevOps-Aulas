@@ -1,0 +1,86 @@
+    1  clear
+    2  cat etc/
+    3  cat /etc/
+    4  ls -la
+    5  clear
+    6  git 
+    7  git -v
+    8  git -version
+    9  clear
+   10  cat /etc/os-release
+   11  clear
+   12  ls
+   13  git clone https://github.com/EnzoOkuizumiFiap/DevOps-Aulas.git
+   14  ls
+   15  ls -la
+   16  ls -l
+   17  cd DevOps-Aulas/
+   18  clear
+   19  git config -global user.name "EnzoOkuizumiFiap"
+   20  git config --global user.name "EnzoOkuizumiFiap"
+   21  git config --global user.email "enzookuizumifiap@gmail.com"
+   22  clear
+   23  git status
+   24  clera
+   25  clear
+   26  git branch
+   27  git branch -a
+   28  git checkout aula01_20-03
+   29  git status
+   30  clear
+   31  ls -la
+   32  clear
+   33  git branch -a
+   34  git checkout main
+   35  cçear
+   36  clear
+   37  touch teste.txt
+   38  git add .
+   39  git status
+   40  git restore --staged teste.txt
+   41  git status
+   42  rm teste.txt
+   43  git status
+   44  clear
+   45  git checkout -b aula02_24-03
+   46  touch teste.txt
+   47  echo "Testando testando testando..." > teste.txt
+   48  git status
+   49  git add .
+   50  git commit -m "Testando nova máquina linux no Azure e autenticando com Personal access tokens (classic)"
+   51  git push
+   52  pwd
+   53  git stauts
+   54  git status
+   55  git branch -a
+   56  ls -lah
+   57  mkdir aula02
+   58  mv teste.txt aula02
+   59  git status
+   60  cd aula02
+   61  git status
+   62  ls -l
+   63  cat teste.txt
+   64  cd ..
+   65  git add .
+   66  git commit -m "Aula 02 - Colocando os arquivos dentro de uma pasta"
+   67  git push
+   68  clear
+   69  lscpu
+   70  free -h
+   71  clear
+   72  sudo apt install tree
+   73  cd ..
+   74  sudo apt install tree
+   75  snap install tree
+   76  sudo snap install tree
+   77  tree
+   78  clear
+   79  sudo apt update
+   80  sudo apt upgrade
+   81  clear
+   82  git status
+   83  clear
+   84  cd DevOps-Aulas/
+   85  history
+   86  history > historico_completo.txt
