@@ -1,0 +1,67 @@
+    1  exi
+    2  exit
+    3  ls =l
+    4  ls -l
+    5  ls -la
+    6  cls
+    7  clear
+    8  pwd
+    9  clear
+   10  mkdir lab
+   11  touch exercicio.sh
+   12  vi exercicio.sh 
+   13  nano exercicio.sh 
+   14  vi exercicio.sh 
+   15  nano exercicio.sh 
+   16  cls
+   17  clear
+   18  az -version
+   19  clear
+   20  az --version
+   21  git clone https://github.com/EnzoOkuizumiFiap/DevOps-Aulas.git
+   22  ls -la
+   23  mv lab DevOps-Aulas/
+   24  mv exercicio.sh 
+   25  mv exercicio.sh DevOps-Aulas/
+   26  cd DevOps-Aulas/
+   27  ls -la
+   28  git branch
+   29  git checkout -b aula05_07-04
+   30  git status
+   31  cd lab
+   32  ls -l
+   33  cd ..
+   34  rmdir lab
+   35  clear
+   36  az account
+   37  az account list
+   38  clear
+   39  az --version
+   40  git clone https://github.com/EnzoOkuizumiFiap/DevOps-Aulas.git
+   41  git branch
+   42  cd DevOps-Aulas/
+   43  git branch
+   44  git branch -a
+   45  git branch -b aula05_07-04
+   46  git checkout -b aula05_07-04
+   47  clear
+   48  touch exercicio.sh
+   49  az account list
+   50  az --version
+   51  clear
+   52  az --version
+   53  clear
+   54  az account list / show / list-locations
+   55  clear
+   56  az group show
+   57  clear
+   58  az account list -o table
+   59  clear
+   60  az account set --subscription 01bd2f0c-367c-4533-bf77-c3454ada4a18
+   61  clear
+   62  az vm image list -o table
+   63  az vm image list -o tableclear
+   64  clear
+   65  az vm list
+   66  clear
+   67  history > relatorio_comandos.txt
