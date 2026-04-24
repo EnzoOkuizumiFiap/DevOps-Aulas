@@ -1,0 +1,326 @@
+    1  cls
+    2  clear
+    3  sudo apt-get update
+    4  sudo apt-get upgrade -y
+    5  clear
+    6  docker --v
+    7  sudo apt install docker.io
+    8  cls
+    9  clear
+   10  docker pull ubuntu:20.04
+   11  sudo docker pull ubuntu:20.04
+   12  docker image ls
+   13  sudo image ls
+   14  clear
+   15  sudo docker image ls
+   16  clear
+   17  docker container run ubuntu echo "Rodando Ubuntu"
+   18  clear
+   19  sudo usermod -aG docker $USER
+   20  exit
+   21  clear
+   22  docker container run ubuntu echo "Rodando Ubuntu"
+   23  docker container run -it ubuntu /bin/bash
+   24  cls
+   25  clear
+   26  docker container run ubuntu
+   27  docker image
+   28  docker  images
+   29  clear
+   30  docker  images
+   31  clear
+   32  docker  images
+   33  exit
+   34  clear
+   35  docker container run --name bd_portalweb -e MYSQL_ROOT_PASSWORD=Japa@8069 -d mysql/mysql-server:latest
+   36  docker image ls
+   37  docker container exec -it bd_portalweb bash
+   38  docker container stop bd_portalweb
+   39  docker volume ls
+   40  docker volume create logdata
+   41  cd /var/lib/docker/volumes
+   42  cd /var/
+   43  cd /lib/docker
+   44  /docke
+   45  cd /docker
+   46  cd /lib
+   47  cd /docker
+   48  ls -la
+   49  clear
+   50  cd ..
+   51  cd.. 
+   52  cd ..
+   53  cd ;;
+   54  cd ..
+   55  cd
+   56  clear
+   57  docker container run -it --name apl_web_dimdim -v logdata:/volumedimdim alpine
+   58  docker ps
+   59  docker images ls
+   60  docker images
+   61  docker ps
+   62  docker ps -a
+   63  docker start apl_web_dimdim
+   64  docker exec -it apl_web_dimdim sh
+   65  docker ps
+   66  docker container rm alpine
+   67  docker container rm apl_web_dimdim
+   68  docker container -f rm apl_web_dimdim
+   69  clear
+   70  docker container rm -f apl_web_dimdim
+   71  docker ps
+   72  docker ps -a
+   73  EU VOU CONTINUAR ISSO AMANHÃ! ENT FLW GUYS!
+   74  exit
+   75  clear
+   76  exit
+   77  ls -la
+   78  cd DevOps-Aulas/
+   79  git branch
+   80  clear
+   81  ls -la
+   82  clear
+   83  docker --version
+   84  clear
+   85  docker build -t ubuntu_python .
+   86  clear
+   87  docker image ls
+   88  docker container run --rm -it ubuntu_python /bin/bash
+   89  nano Dockerfile
+   90  docker build -t ubuntu_python .
+   91  docker container run --rm -it ubuntu_python /bin/bash
+   92  docker images
+   93  docker ps -a
+   94  clear
+   95  docker rmi ubuntu:latest alpine:latest
+   96  docker rmi -f ubuntu:latest alpine:latest
+   97  docker ps -a
+   98  docker images 
+   99  clear
+  100  nano Dockerfile
+  101  docker build -t teste .
+  102  docker image inspect teste
+  103  docker images
+  104  docker run -d --name nginx-server -p 80:80 nginx
+  105  localhost:80
+  106  docker start nginx-server
+  107  docker exec -it nginx-server /bin/bash
+  108  clear
+  109  cd ..
+  110  git clone https://github.com/profjoaomenk/mysql-dimdim.git
+  111  touch Dockerfile.mysql
+  112  nano Dockerfile.mysql 
+  113  clear
+  114  docker build -f Dockerfile.mysql -t mysql-dimdim .
+  115  pwd
+  116  ls 
+  117  nano docker-entrypoint-initdb.d/init.sql
+  118  cd mysql-dimdim/
+  119  ls
+  120  touch Dockerfile.mysql
+  121  nano Dockerfile.mysql
+  122  docker build -f Dockerfile.mysql -t mysql-dimdim .
+  123  cd ..
+  124  ls
+  125  rm Dockerfile.mysql 
+  126  ls
+  127  cd mysql-dimdim/
+  128  clear
+  129  docker volume create mysql-dimdim-data
+  130  docker network create dimdim-network
+  131  clear
+  132  docker run --name mysql-dimdim -d  --network dimdim-network  -p 3306:3306  -v mysql-dimdim-data:/var/lib/mysql  mysql-dim
+  133  docker run --name mysql-dimdim -d --network dimdim-network -p 3306:3306 -v mysql-dimdim-data:/var/lib/mysql mysql-dimdim
+  134  docker images
+  135  docker logs -f mysql-dimdim
+  136  clear
+  137  docker exec -i mysql-dimdim mysql -uuser-dimdim -p'senha-dimdim' db-dimdim -e "SELECT * FROM transacoes;"
+  138  FUNCIONAdocker exec -i mysql-dimdim mysql -uuser-dimdim -p'senha-dimdim' db-dimdim -e "SELECT * FROM transacoes;"
+  139  clear
+  140  cd ..
+  141  git clone https://github.com/profjoaomenk/transacoes-api.git
+  142  cd transacoes-api/
+  143  touch Dockerfile.api
+  144  nano Dockerfile.api 
+  145  docker build -f Dockerfile.api -t api-dimdim .
+  146  clear
+  147  docker build -f Dockerfile.api -t api-dimdim .
+  148  clear
+  149  exit
+  150  docker run --name api-dimdim -d  --network dimdim-network  -p 8080:8080  api-dimd
+  151  ls -la
+  152  cd tras
+  153  cd transacoes-api/
+  154  docker run --name api-dimdim -d  --network dimdim-network  -p 8080:8080  api-dimd
+  155  docker run --name api-dimdim -d  --network dimdim-network  -p 8080:8080  api-dimdim
+  156  docker build -f Dockerfile.api -t api-dimdim .
+  157  docker run --name api-dimdim -d  --network dimdim-network  -p 8080:8080  api-dimdim
+  158  exit
+  159  ;5~;5~;5~;5~;5~;5~;5~;5~
+  160  clear
+  161  git  clone https://github.com/EnzoOkuizumiFiap/DevOps-Aulas.git
+  162  ls -la
+  163  clear
+  164  cd DevOps-Aulas/
+  165  git checkout -b aula07_21-04
+  166  nano --version
+  167  sudo apt update
+  168  clear
+  169  nano Dockerfile
+  170  clear
+  171  docker build -t ubuntu_python .
+  172  ~
+  173  clearclear
+  174  docker run -d --name mysql-dimdim -e MYSQL_ROOT_PASSWORD=123456 -e MYSQL_DATABASE=dimdim -p 3306:3306 mysql:8
+  175  cls
+  176  clear
+  177  ls -la
+  178  cd mysql-dimdim/
+  179  ker run --name mysql-dimdim -d  --network dimdim-network  -p 3306:3306  -v mysql-dimdim-data:/var/lib/mysql  mysql-dimdim
+  180  docker run --name mysql-dimdim -d  --network dimdim-network  -p 3306:3306  -v mysql-dimdim-data:/var/lib/mysql  mysql-dimdim
+  181  clear
+  182  docker images
+  183  cd ..
+  184  docker images
+  185  clear
+  186  docker images
+  187  sudo docker run -it mysql-dimdim /bin/bash
+  188  ls -la
+  189  sudo docker run -it mysql-dimdim /bin/bash
+  190  clear
+  191  docker images
+  192  docker ps -a
+  193  docker run -d --name mysql-dimdim -e MYSQL_ROOT_PASSWORD=123456 -e MYSQL_DATABASE=dimdim -p 3306:3306 mysql:8
+  194  clear
+  195  docker container run mysql-dimdim -d
+  196  docker container run api-dimdim -d
+  197  clear
+  198  ls -la
+  199  docker network create dimdim-net
+  200  docker run -d --name mysql-dimdim --network dimdim-net -e MYSQL_ROOT_PASSWORD=123456 -e MYSQL_DATABASE=dimdim mysql:8
+  201  docker run -d --name api-dimdim --network dimdim-net -p 8080:8080 api-dimdim
+  202  clear
+  203  docker container run api-dimdim
+  204  clear
+  205  docker container run mysql-dimdim
+  206  clear
+  207  git branch
+  208  ls -la
+  209  cd transacoes-api/
+  210  clear
+  211  docker logs -f api-dimdim
+  212  docker run --name api-dimdim -d  --network dimdim-network  -p 8080:8080  api-dimdim
+  213  docker run --name api-dimdim -d --network dimdim-network -p 8080:8080 api-dimdim
+  214  clear
+  215  docker build -f Dockerfile.api -t api-dimdim .
+  216  docker images
+  217  docker rm -f none
+  218  docker rmi 05b299ac5c34
+  219  clear
+  220  docker logs -f api-dimdim
+  221  clear
+  222  docker run --name api-dimdim -d  --network dimdim-network  -p 8080:8080  api-dimdim
+  223  docker logs -f api-dimdim
+  224  clear
+  225  curl -X GET http://localhost:8080/api/transacoes
+  226  curl -X POST http://localhost:8080/api/transacoes  -H "Content-Type: application/json"  -d '{
+  227   "descricao": "Compra no supermercado",
+  228   "valor": 150.75
+  229   }'
+  230  curl -X PUT http://localhost:8080/api/transacoes/6  -H "Content-Type: application/json"  -d '{
+  231   "descricao": "Compra no supermercado - ALTERADO",
+  232   "valor": 150.76,
+  233   "dataTransacao": "2024-06-18T00:00:00"
+  234   }'
+  235  curl -X DELETE http://localhost:8080/api/transacoes/6
+  236  clear
+  237  docker run --name api-dimdim -d  --network dimdim-network  -p 8080:8080  api-dimdim
+  238  clear
+  239  curl http://localhost:8080/api/transacoes
+  240  docker ps -a
+  241  docker logs api-dimdim
+  242  ls -la
+  243  sudo docker run -it api-dimdim /bin/bash
+  244  cd ..
+  245  nano docker-compose.yml
+  246  docker compose up
+  247  clear
+  248  docker-compose up
+  249  sudo apt update
+  250  sudo apt install docker-compose-plugin
+  251  docker run -d --name api-dimdim -p 8080:8080 --link mysql-dimdim:mysql-dimdim api-dimdim
+  252  clear
+  253  docker network create dimdim-net
+  254  clear
+  255  docker run -d --name api-dimdim --network dimdim-net -p 8080:8080 api-dimdim
+  256  docker build -t api-dimdim .
+  257  ls
+  258  cd transacoes-api/
+  259  docker build -t api-dimdim .
+  260  clear
+  261  curl -X GET http://localhost:8080/api/transacoes
+  262  clear
+  263  docker run -d mysql:8
+  264  docker run -d --name mysql-dimdim mysql:8
+  265  docker container run -d mysql-dimdim 
+  266  docker container run -d api-dimdim 
+  267  docker ps -a
+  268  docker images 
+  269  clear
+  270  ls
+  271  top
+  272  exit
+  273  docker images ps
+  274  docker network create dimdim-net
+  275  docker rm -f api-dimdim mysql-dimdim
+  276  clear
+  277  docker run -d --name mysql-dimdim --network dimdim-net -e MYSQL_ROOT_PASSWORD=123456 -e MYSQL_DATABASE=dimdim -p 3306:3306 mysql:8
+  278  clear
+  279  docker run -d --name api-dimdim --network dimdim-net -p 8080:8080 api-dimdim
+  280  docker ps
+  281  docker run -d --name api-dimdim --network dimdim-net -p 8081:8080 api-dimdim
+  282  clear
+  283  docker rm -f api-dimdim mysql-dimdim
+  284  clear
+  285  docker run --name mysql-dimdim -d  --network dimdim-network  -p 3306:3306  -v mysql-dimdim-data:/var/lib/mysql  mysql-dimdim
+  286  docker run --name api-dimdim -d  --network dimdim-network  -p 8080:8080  api-dimdim
+  287  curl -X GET http://localhost:8080/api/transacoes
+  288  docker ps
+  289  docker rm -f mysql-dimdim
+  290  clear
+  291  docker run --name mysql-dimdim -d  --network dimdim-network  -p 3306:3306  -v mysql-dimdim-data:/var/lib/mysql  mysql-dimdim
+  292  ocker run --name api-dimdim -d  --network dimdim-network  -p 8080:8080 \
+  293  docker run --name api-dimdim -d  --network dimdim-network  -p 8080:8080  api-dim
+  294  clear
+  295  docker run --name api-dimdim -d  --network dimdim-network  -p 8080:8080  api-dimdim
+  296  docker rm -f api-dimdim
+  297  docker run --name api-dimdim -d --network dimdim-network -p 8080:8080 api-dimdim
+  298  docker ps
+  299  sudo lsof -i :8080
+  300  docker ps -a
+  301  docker ps
+  302  docker rm -f api-dimdim
+  303  clear
+  304  docker run -d --name api-dimdim --network dimdim-network -p 8081:8080 api-dimdim
+  305  curl http://localhost:8081/api/transacoes
+  306  docker logs api-dimdim
+  307  clear
+  308  curl --version
+  309  clera
+  310  curl http://localhost:8081/api/transacoes
+  311  curl -H "Accept-Charset: utf-8" http://localhost:8081/api/transacoes
+  312  exit
+  313  clear
+  314  docker start mysql-dimdim
+  315  docker start api-dimdim
+  316  curl -X GET http://localhost:8080/api/transacoes
+  317  docker ps
+  318  clear
+  319  docker update --restart always mysql-dimdim
+  320  docker update --restart always api-dimdim
+  321  sudo reboot
+  322  clear
+  323  ls
+  324  cd DevOps-Aulas/
+  325  ls
+  326  history > historico_comandos.txt
